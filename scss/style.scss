@@ -1,0 +1,595 @@
+@use "index" as *;
+
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  max-width: 100% !important;
+}
+
+body {
+  @include bg-color-linear;
+  font: 100% $main-font;
+  position: relative;
+}
+body {
+  .nav-link {
+    color: $main-text-color !important;
+    opacity: 0.6;
+    font-weight: 500 !important;
+    font-size: 18px;
+    line-height: 24.59px;
+  }
+  .btn-log {
+    color: $main-btn-color;
+    font-weight: 500;
+    text-align: center;
+    height: 55px;
+  }
+  .btn-sign {
+    background-color: $main-btn-color;
+    border-radius: 8px;
+    height: 55px;
+    width: 130px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+  }
+}
+
+.section1 {
+  .container1 {
+    margin-top: 130px !important;
+    font-family: $main-font;
+  }
+  h1 {
+    font-weight: 800;
+    color: $main-text-color;
+  }
+  p {
+    font-size: 13px;
+    font-weight: 600;
+    color: $main-text-color;
+  }
+  .btn-get-started {
+    background-color: $main-btn-color;
+    border-radius: 8px;
+    height: 55px;
+    width: 130px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+.how-section {
+  background-color: #f3f4f5;
+  color: $main-text-color;
+}
+
+.card-section-item {
+  text-align: center;
+  background-color: #f3f4f5;
+  .card {
+    height: 500px;
+    border-radius: 7px;
+    box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  img {
+    width: 180px !important;
+    // margin-top: 30px !important;
+    // margin-bottom: 40px !important;
+  }
+  h3 {
+    font-size: 22px;
+    margin-top: 25px;
+    color: $main-text-color;
+  }
+  .withdraw {
+    margin-top: 10px !important;
+  }
+  p {
+    font-size: 14px;
+    margin-top: 18px !important;
+  }
+  .card1 {
+    position: relative;
+  }
+  .card-item-footer1 {
+    background-color: orangered !important;
+    // padding: 3px;
+    width: 100%;
+
+    display: block;
+    height: 20px !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0px 7px 7px;
+  }
+  .card2,
+  .card3,
+  .card4 {
+    position: relative;
+  }
+  .card-item-footer2,
+  .card-item-footer3,
+  .card-item-footer4 {
+    background-color: orangered !important;
+    // padding: 3px;
+    width: 100%;
+
+    display: block;
+    height: 20px !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 7px 7px;
+  }
+}
+
+.section2 {
+  .access-cont {
+    margin-top: 150px !important;
+  }
+  .access-header {
+    color: $main-text-color;
+  }
+  .whether-para {
+    color: $main-text-color;
+    opacity: 0.6;
+    font-weight: 500;
+  }
+  .btn-get-started {
+    @include btn-main;
+  }
+  .choose-img {
+    position: relative;
+  }
+  .choose-para {
+    font-weight: 700;
+    color: $main-text-color;
+    position: absolute;
+    top: 200px;
+    left: -80px;
+  }
+}
+
+.section3 {
+  .image-6 {
+    margin-top: 150px !important;
+  }
+  .herotext-internship {
+    margin-top: 250px !important;
+    h2 {
+      color: $main-text-color;
+    }
+    p {
+      color: $main-text-color;
+      opacity: 0.6;
+      font-weight: 500;
+    }
+    button {
+      @include btn-main;
+    }
+  }
+}
+.section4 {
+  .herotext3 {
+    margin-top: 200px !important;
+    h1 {
+      color: $main-text-color;
+    }
+    p {
+      color: $main-text-color;
+      opacity: 0.6;
+      font-weight: 500;
+    }
+    button {
+      @include btn-main;
+    }
+  }
+  .hero-img3 {
+    margin-top: 150px !important;
+  }
+}
+.package-sec {
+  text-align: center;
+  margin-top: 40px !important;
+  h3 {
+    color: $main-text-color;
+    font-weight: 600 !important;
+  }
+}
+.student-sec {
+  .card {
+    max-width: 100%;
+    position: relative;
+    box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  .student-div {
+    background-color: #d946ef !important;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    padding: auto !important;
+    position: absolute;
+    top: 0;
+    display: block;
+    font-weight: 700;
+  }
+  .student-div2 {
+    background-color: rgb(103, 103, 239) !important;
+  }
+  .student-div3 {
+    background-color: #dc2626 !important;
+  }
+  .p1 {
+    margin-top: 100px !important;
+  }
+  p {
+    opacity: 0.6;
+  }
+  span {
+    color: black;
+    font-weight: 800;
+  }
+  button {
+    @include btn-main;
+  }
+}
+.cust-sec {
+  background-color: #f3f4f5;
+  height: 500px;
+  h5 {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    color: $main-text-color;
+  }
+  .quote-cont {
+    margin-left: 170px !important;
+  }
+  .card {
+    // max-width: 200%;
+    position: relative;
+    box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    p {
+      margin-top: 50px !important;
+      margin-bottom: 30px;
+      opacity: 0.6;
+    }
+    .container {
+      margin-bottom: 30px !important;
+      padding-top: 0 !important;
+      border-top: 1px solid black;
+      opacity: 0.6;
+      width: 50%;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    .lorem-para {
+      margin-bottom: 30px !important;
+    }
+    .ker-para {
+      margin-top: 0 !important;
+    }
+  }
+
+  // .card-first {
+  //   margin-right: 70px !important;
+  // }
+  // .card-second {
+  //   position: absolute;
+  //   right: -370px !important;
+  //   overflow-x: hidden !important;
+  // }
+}
+
+.whole-footer {
+  position: relative;
+  .container-ready {
+    position: absolute;
+    top: -120px;
+    left: 250px;
+    background-color: #3b82f6;
+    width: 65%;
+    margin: 0 auto !important;
+    height: 240px;
+    border-radius: 10px;
+  }
+  .container-started {
+    color: #fff;
+    margin-top: 90px !important;
+    text-align: left;
+    h3 {
+      font-size: 25px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+  .btn {
+    margin-top: 90px !important;
+    @include btn-main;
+    background-color: #fff;
+    color: $main-text-color;
+    width: 50%;
+  }
+  footer {
+    background-color: $main-text-color;
+    height: 500px;
+    .acada-div {
+      margin-left: 110px !important;
+    }
+    .acada-img2 {
+      margin-top: 200px !important;
+    }
+    .quick-links {
+      margin-top: 200px !important;
+      margin-left: 230px !important;
+    }
+    .about-quick {
+      margin-left: 230px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  body {
+    // padding: 0 15px !important;
+  }
+  .row {
+    --bs-gutter-x: 0 !important;
+  }
+  .section1 {
+    padding: 0 15px !important;
+    .container1 {
+      h1 {
+        font-size: 34px;
+      }
+      p {
+        font-size: 17px;
+        text-align: justify;
+        width: 90% !important;
+        .break {
+          display: none;
+        }
+
+        .btn {
+          // width: 90% !important;
+        }
+      }
+      .container2 {
+        margin-top: 30px !important;
+      }
+    }
+  }
+  .how-section {
+    h3 {
+      margin-left: 20px !important;
+    }
+  }
+
+  .card-section-item {
+    .card {
+      margin-left: 14px !important;
+    }
+    .card4 {
+      // width: 93% !important;
+    }
+  }
+
+  .section2 {
+    padding: 0 15px !important;
+    h2 {
+      width: 95%;
+    }
+    .access-cont {
+      margin-top: 12px !important;
+      text-align: center;
+    }
+    .whether-para {
+      width: 95%;
+      text-align: justify;
+      .break {
+        display: none;
+      }
+    }
+    .btn {
+      // width: 90%;
+    }
+    .container-choose {
+      justify-content: center;
+      max-width: 100% !important;
+      margin-top: 60px !important;
+      .choose-img {
+        position: static;
+      }
+      .choose-para {
+        position: static;
+        text-align: center;
+      }
+    }
+  }
+  .section3 {
+    padding: 0 15px !important;
+    .row {
+      flex-direction: column-reverse !important;
+    }
+    .herotext-internship {
+      margin-top: 50px !important;
+      text-align: center;
+      h2 {
+        font-size: 30px !important;
+        width: 95%;
+      }
+      p {
+        text-align: justify;
+        width: 95%;
+      }
+      .break {
+        display: none;
+      }
+      .btn {
+        // width: 95%;
+      }
+    }
+    .image-6 {
+      margin-top: 60px !important;
+    }
+  }
+  .section4 {
+    padding: 0 15px !important;
+    text-align: center;
+    width: 95%;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      text-align: justify;
+    }
+    br {
+      display: none;
+    }
+    .hero-img3 {
+      margin-top: 60px !important;
+    }
+  }
+  .student-sec {
+    padding: 0 15px !important;
+    .card {
+      width: 100%;
+      margin-bottom: 40px !important;
+    }
+  }
+
+  .cust-sec {
+    padding: 0 15px !important;
+    height: 1000px !important;
+    .quote-cont {
+      margin: 0 !important;
+    }
+    .card {
+      margin-top: 50px !important;
+      margin-left: 20px !important;
+    }
+  }
+  .footer-sec {
+    margin-top: 0px !important;
+    text-align: center;
+
+    .container-ready {
+      width: 90% !important;
+      height: 170px;
+      left: 20px !important;
+      top: -60px;
+    }
+    .btn {
+      margin-top: 0px !important;
+      margin-left: 5px !important;
+      // width: 100px;
+      height: 60px;
+      font-size: 12px;
+      font-weight: 700 !important;
+    }
+    .container-started {
+      text-align: center !important;
+      margin-top: 20px !important;
+      h3 {
+        font-size: 20px;
+        margin-bottom: 8px !important;
+      }
+      p {
+        font-size: 15px;
+        margin-bottom: 20px !important;
+      }
+    }
+    footer {
+      height: 800px;
+      .acada-div {
+        margin-left: 0px !important;
+      }
+      .acada-img2 {
+        // margin-top: 200px !important;
+      }
+      .quick-links {
+        margin-top: 100px !important;
+        margin-left: 0px !important;
+      }
+      .about-quick {
+        margin-left: 0px !important;
+      }
+    }
+  }
+  .svg-sec1 {
+    .svg1 {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer-sec {
+    .container-ready {
+      top: -40px;
+    }
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 991px) {
+  .section3 {
+    .image-6 {
+      width: 100%;
+    }
+  }
+  .footer-sec {
+    // position: relative;
+    .quick-div {
+      flex: none !important;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .cust-sec {
+    height: 1300px !important;
+  }
+  .footer-sec {
+    margin-top: 0px !important;
+    .container-ready {
+      left: 13px !important;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+  .cust-sec {
+    .quote-parent {
+      flex: none;
+    }
+    .quote-cont {
+      margin-left: 70px !important;
+    }
+  }
+  .footer-sec {
+    .container-ready {
+      left: 87px !important;
+      width: 85%;
+    }
+    .whole-footer {
+      .quick-links {
+        width: 100% !important;
+        margin-left: 140px !important;
+      }
+      .about-quick {
+        margin-left: 140px !important;
+      }
+    }
+  }
+}

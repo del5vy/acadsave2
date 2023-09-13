@@ -1,0 +1,565 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  max-width: 100% !important;
+}
+
+body {
+  background: #fff 100% no-repeat;
+  height: 100vh;
+  background-size: 300% 500%;
+  overflow-x: hidden;
+  animation: bg-ani 10s ease-in-out infinite;
+  background-attachment: fixed;
+  font: 100% "Manrope", sans-serif;
+  position: relative;
+}
+
+body .nav-link {
+  color: rgba(18, 5, 89, 0.8823529412) !important;
+  opacity: 0.6;
+  font-weight: 500 !important;
+  font-size: 18px;
+  line-height: 24.59px;
+}
+body .btn-log {
+  color: rgba(90, 72, 197, 0.8823529412);
+  font-weight: 500;
+  text-align: center;
+  height: 55px;
+}
+body .btn-sign {
+  background-color: rgba(90, 72, 197, 0.8823529412);
+  border-radius: 8px;
+  height: 55px;
+  width: 130px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+.section1 .container1 {
+  margin-top: 130px !important;
+  font-family: "Manrope", sans-serif;
+}
+.section1 h1 {
+  font-weight: 800;
+  color: rgba(18, 5, 89, 0.8823529412);
+}
+.section1 p {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(18, 5, 89, 0.8823529412);
+}
+.section1 .btn-get-started {
+  background-color: rgba(90, 72, 197, 0.8823529412);
+  border-radius: 8px;
+  height: 55px;
+  width: 130px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.how-section {
+  background-color: #f3f4f5;
+  color: rgba(18, 5, 89, 0.8823529412);
+}
+
+.card-section-item {
+  text-align: center;
+  background-color: #f3f4f5;
+}
+.card-section-item .card {
+  height: 500px;
+  border-radius: 7px;
+  box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.card-section-item img {
+  width: 180px !important;
+}
+.card-section-item h3 {
+  font-size: 22px;
+  margin-top: 25px;
+  color: rgba(18, 5, 89, 0.8823529412);
+}
+.card-section-item .withdraw {
+  margin-top: 10px !important;
+}
+.card-section-item p {
+  font-size: 14px;
+  margin-top: 18px !important;
+}
+.card-section-item .card1 {
+  position: relative;
+}
+.card-section-item .card-item-footer1 {
+  background-color: orangered !important;
+  width: 100%;
+  display: block;
+  height: 20px !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0px 7px 7px;
+}
+.card-section-item .card2,
+.card-section-item .card3,
+.card-section-item .card4 {
+  position: relative;
+}
+.card-section-item .card-item-footer2,
+.card-section-item .card-item-footer3,
+.card-section-item .card-item-footer4 {
+  background-color: orangered !important;
+  width: 100%;
+  display: block;
+  height: 20px !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 7px 7px;
+}
+
+.section2 .access-cont {
+  margin-top: 150px !important;
+}
+.section2 .access-header {
+  color: rgba(18, 5, 89, 0.8823529412);
+}
+.section2 .whether-para {
+  color: rgba(18, 5, 89, 0.8823529412);
+  opacity: 0.6;
+  font-weight: 500;
+}
+.section2 .btn-get-started {
+  background-color: rgba(90, 72, 197, 0.8823529412);
+  border-radius: 8px;
+  height: 55px;
+  width: 130px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.section2 .choose-img {
+  position: relative;
+}
+.section2 .choose-para {
+  font-weight: 700;
+  color: rgba(18, 5, 89, 0.8823529412);
+  position: absolute;
+  top: 200px;
+  left: -80px;
+}
+
+.section3 .image-6 {
+  margin-top: 150px !important;
+}
+.section3 .herotext-internship {
+  margin-top: 250px !important;
+}
+.section3 .herotext-internship h2 {
+  color: rgba(18, 5, 89, 0.8823529412);
+}
+.section3 .herotext-internship p {
+  color: rgba(18, 5, 89, 0.8823529412);
+  opacity: 0.6;
+  font-weight: 500;
+}
+.section3 .herotext-internship button {
+  background-color: rgba(90, 72, 197, 0.8823529412);
+  border-radius: 8px;
+  height: 55px;
+  width: 130px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.section4 .herotext3 {
+  margin-top: 200px !important;
+}
+.section4 .herotext3 h1 {
+  color: rgba(18, 5, 89, 0.8823529412);
+}
+.section4 .herotext3 p {
+  color: rgba(18, 5, 89, 0.8823529412);
+  opacity: 0.6;
+  font-weight: 500;
+}
+.section4 .herotext3 button {
+  background-color: rgba(90, 72, 197, 0.8823529412);
+  border-radius: 8px;
+  height: 55px;
+  width: 130px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.section4 .hero-img3 {
+  margin-top: 150px !important;
+}
+
+.package-sec {
+  text-align: center;
+  margin-top: 40px !important;
+}
+.package-sec h3 {
+  color: rgba(18, 5, 89, 0.8823529412);
+  font-weight: 600 !important;
+}
+
+.student-sec .card {
+  max-width: 100%;
+  position: relative;
+  box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.student-sec .student-div {
+  background-color: #d946ef !important;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  padding: auto !important;
+  position: absolute;
+  top: 0;
+  display: block;
+  font-weight: 700;
+}
+.student-sec .student-div2 {
+  background-color: rgb(103, 103, 239) !important;
+}
+.student-sec .student-div3 {
+  background-color: #dc2626 !important;
+}
+.student-sec .p1 {
+  margin-top: 100px !important;
+}
+.student-sec p {
+  opacity: 0.6;
+}
+.student-sec span {
+  color: black;
+  font-weight: 800;
+}
+.student-sec button {
+  background-color: rgba(90, 72, 197, 0.8823529412);
+  border-radius: 8px;
+  height: 55px;
+  width: 130px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.cust-sec {
+  background-color: #f3f4f5;
+  height: 500px;
+}
+.cust-sec h5 {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  color: rgba(18, 5, 89, 0.8823529412);
+}
+.cust-sec .quote-cont {
+  margin-left: 170px !important;
+}
+.cust-sec .card {
+  position: relative;
+  box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+.cust-sec .card p {
+  margin-top: 50px !important;
+  margin-bottom: 30px;
+  opacity: 0.6;
+}
+.cust-sec .card .container {
+  margin-bottom: 30px !important;
+  padding-top: 0 !important;
+  border-top: 1px solid black;
+  opacity: 0.6;
+  width: 50%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.cust-sec .card .lorem-para {
+  margin-bottom: 30px !important;
+}
+.cust-sec .card .ker-para {
+  margin-top: 0 !important;
+}
+
+.whole-footer {
+  position: relative;
+}
+.whole-footer .container-ready {
+  position: absolute;
+  top: -120px;
+  left: 250px;
+  background-color: #3b82f6;
+  width: 65%;
+  margin: 0 auto !important;
+  height: 240px;
+  border-radius: 10px;
+}
+.whole-footer .container-started {
+  color: #fff;
+  margin-top: 90px !important;
+  text-align: left;
+}
+.whole-footer .container-started h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.whole-footer .container-started p {
+  font-size: 24px;
+}
+.whole-footer .btn {
+  margin-top: 90px !important;
+  background-color: rgba(90, 72, 197, 0.8823529412);
+  border-radius: 8px;
+  height: 55px;
+  width: 130px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: rgba(18, 5, 89, 0.8823529412);
+  width: 50%;
+}
+.whole-footer footer {
+  background-color: rgba(18, 5, 89, 0.8823529412);
+  height: 500px;
+}
+.whole-footer footer .acada-div {
+  margin-left: 110px !important;
+}
+.whole-footer footer .acada-img2 {
+  margin-top: 200px !important;
+}
+.whole-footer footer .quick-links {
+  margin-top: 200px !important;
+  margin-left: 230px !important;
+}
+.whole-footer footer .about-quick {
+  margin-left: 230px !important;
+}
+
+@media screen and (max-width: 920px) {
+  .row {
+    --bs-gutter-x: 0 !important;
+  }
+  .section1 {
+    padding: 0 15px !important;
+  }
+  .section1 .container1 h1 {
+    font-size: 34px;
+  }
+  .section1 .container1 p {
+    font-size: 17px;
+    text-align: justify;
+    width: 90% !important;
+  }
+  .section1 .container1 p .break {
+    display: none;
+  }
+  .section1 .container1 .container2 {
+    margin-top: 30px !important;
+  }
+  .how-section h3 {
+    margin-left: 20px !important;
+  }
+  .card-section-item .card {
+    margin-left: 14px !important;
+  }
+  .section2 {
+    padding: 0 15px !important;
+  }
+  .section2 h2 {
+    width: 95%;
+  }
+  .section2 .access-cont {
+    margin-top: 12px !important;
+    text-align: center;
+  }
+  .section2 .whether-para {
+    width: 95%;
+    text-align: justify;
+  }
+  .section2 .whether-para .break {
+    display: none;
+  }
+  .section2 .container-choose {
+    justify-content: center;
+    max-width: 100% !important;
+    margin-top: 60px !important;
+  }
+  .section2 .container-choose .choose-img {
+    position: static;
+  }
+  .section2 .container-choose .choose-para {
+    position: static;
+    text-align: center;
+  }
+  .section3 {
+    padding: 0 15px !important;
+  }
+  .section3 .row {
+    flex-direction: column-reverse !important;
+  }
+  .section3 .herotext-internship {
+    margin-top: 50px !important;
+    text-align: center;
+  }
+  .section3 .herotext-internship h2 {
+    font-size: 30px !important;
+    width: 95%;
+  }
+  .section3 .herotext-internship p {
+    text-align: justify;
+    width: 95%;
+  }
+  .section3 .herotext-internship .break {
+    display: none;
+  }
+  .section3 .image-6 {
+    margin-top: 60px !important;
+  }
+  .section4 {
+    padding: 0 15px !important;
+    text-align: center;
+    width: 95%;
+  }
+  .section4 h1 {
+    font-size: 30px;
+  }
+  .section4 p {
+    text-align: justify;
+  }
+  .section4 br {
+    display: none;
+  }
+  .section4 .hero-img3 {
+    margin-top: 60px !important;
+  }
+  .student-sec {
+    padding: 0 15px !important;
+  }
+  .student-sec .card {
+    width: 100%;
+    margin-bottom: 40px !important;
+  }
+  .cust-sec {
+    padding: 0 15px !important;
+    height: 1000px !important;
+  }
+  .cust-sec .quote-cont {
+    margin: 0 !important;
+  }
+  .cust-sec .card {
+    margin-top: 50px !important;
+    margin-left: 20px !important;
+  }
+  .footer-sec {
+    margin-top: 0px !important;
+    text-align: center;
+  }
+  .footer-sec .container-ready {
+    width: 90% !important;
+    height: 170px;
+    left: 20px !important;
+    top: -60px;
+  }
+  .footer-sec .btn {
+    margin-top: 0px !important;
+    margin-left: 5px !important;
+    height: 60px;
+    font-size: 12px;
+    font-weight: 700 !important;
+  }
+  .footer-sec .container-started {
+    text-align: center !important;
+    margin-top: 20px !important;
+  }
+  .footer-sec .container-started h3 {
+    font-size: 20px;
+    margin-bottom: 8px !important;
+  }
+  .footer-sec .container-started p {
+    font-size: 15px;
+    margin-bottom: 20px !important;
+  }
+  .footer-sec footer {
+    height: 800px;
+  }
+  .footer-sec footer .acada-div {
+    margin-left: 0px !important;
+  }
+  .footer-sec footer .quick-links {
+    margin-top: 100px !important;
+    margin-left: 0px !important;
+  }
+  .footer-sec footer .about-quick {
+    margin-left: 0px !important;
+  }
+  .svg-sec1 .svg1 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .footer-sec .container-ready {
+    top: -40px;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 991px) {
+  .section3 .image-6 {
+    width: 100%;
+  }
+  .footer-sec .quick-div {
+    flex: none !important;
+  }
+}
+@media screen and (max-width: 300px) {
+  .cust-sec {
+    height: 1300px !important;
+  }
+  .footer-sec {
+    margin-top: 0px !important;
+  }
+  .footer-sec .container-ready {
+    left: 13px !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+  .cust-sec .quote-parent {
+    flex: none;
+  }
+  .cust-sec .quote-cont {
+    margin-left: 70px !important;
+  }
+  .footer-sec .container-ready {
+    left: 87px !important;
+    width: 85%;
+  }
+  .footer-sec .whole-footer .quick-links {
+    width: 100% !important;
+    margin-left: 140px !important;
+  }
+  .footer-sec .whole-footer .about-quick {
+    margin-left: 140px !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
